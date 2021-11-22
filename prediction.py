@@ -8,8 +8,8 @@ def predict(img ,path):
     model.load_weights(path)
     
     #Load image and reszie
-    img = post_pad(cv2.imread('/content/drive/MyDrive/segment/val_x/image103.tif') ,61)
-    same_pic = cv2.imread('/content/drive/MyDrive/segment/val_x/image103.tif')
+    img = post_pad(cv2.imread('-Image-path-') ,61)
+    same_pic = cv2.imread('-Image-path-')
     pic = same_pic.copy()
 
     # Patch the images and reshape the image
