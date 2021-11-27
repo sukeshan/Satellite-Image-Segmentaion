@@ -6,5 +6,4 @@
 
 ## Dataset link - https://www.kaggle.com/sagar100rathod/inria-aerial-image-labeling-dataset
 
-###   Usig UNet Architecture, Segmented a Buildings by using inria datasets with a spatial resolution of 0.3 m.
 
