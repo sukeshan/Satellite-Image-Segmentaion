@@ -4,10 +4,10 @@ from typing import *
 def load_model(input_shape:list , total_classes:int):
     r'''Arg:
         Model input shape and Number of Classes .
-        example : ( (256 ,256 , 3) ,3)
+        example : load_model(input_shape = (256 ,256 , 3) ,total_classes = 2)
 
         Return : 
-        UNet  Model 
+        UNet  Model  
     '''
     # Model Intilization
 
