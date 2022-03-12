@@ -1,9 +1,17 @@
 from tensorflow import keras as ks
 import tensorflow as tf
-def load_model():
+from typing import *
+def load_model(input_shape:list , total_classes:int):
+    r'''Arg:
+        Model input shape and Number of Classes .
+        example : ( (256 ,256 , 3) ,3)
+
+        Return : 
+        UNet  Model 
+    '''
     # Model Intilization
 
-    In = Input((256 ,256 ,3) )
+    In = Input(input_shape)
 
     #Block 1
     con1  = Conv2D(filters = 1 ,kernel_size = (3,3) ,kernel_initializer = 'HeNormal' ,padding= 'SAME',activation = 'relu' )(In)
@@ -82,7 +90,7 @@ def load_model():
 
 
     #Output
-    Output = Conv2D(filters = 1 ,kernel_size=(1,1) ,kernel_initializer = 'HeNormal' , padding = 'SAME',activation = 'sigmoid')(upsamp4)
+    Output = Conv2D(filters = total_classes ,kernel_size=(1,1) ,kernel_initializer = 'HeNormal' , padding = 'SAME',activation = 'sigmoid')(upsamp4)
 
     model = Model(inputs = In ,outputs = Output)
 
