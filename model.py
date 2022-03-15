@@ -1,4 +1,4 @@
-ffrom tensorflow.keras.layers import Conv2D ,Conv2DTranspose ,MaxPool2D ,Concatenate ,Dropout ,Input
+from tensorflow.keras.layers import Conv2D ,Conv2DTranspose ,MaxPool2D ,Concatenate ,Dropout ,Input
 from typing import *
 from tensorflow.keras import Model
 
