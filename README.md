@@ -10,7 +10,7 @@
 ## Install Requirements
     pip instal -r requirements.txt
 
-## Web_Page 
+## Web_Page format
       streamlit run app.py
       
 ## Model Prediction:
