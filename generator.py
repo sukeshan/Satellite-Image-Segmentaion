@@ -3,6 +3,7 @@ import cv2
 import random 
 from patchify import patchify ,unpatchify
 from sklearn.utils import shuffle
+from padding import pad
 
 def data_generator(img_dir:list ,input_size :tuple ,batch_size :int ,pad = False)  -> Union[np.ndarray ,np.ndarray]  :
     r''' Arg :
