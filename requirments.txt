@@ -1,0 +1,13 @@
+# pip install -r requirements.txt
+
+numpy>=1.18.5
+opencv-python>=4.1.2
+Pillow
+matplotlib
+st_aggrid
+streamlit
+tensorboard>=2.4.1
+pandas
+tensorflow==2.4.1 
+patchify
+skleaarn
