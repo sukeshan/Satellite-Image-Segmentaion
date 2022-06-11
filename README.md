@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/48553042/173171592-144d0d45-8ac5-46b1-
 ### Annotated dataset       :  https://project.inria.fr/aerialimagelabeling/files/
 ### Pretrained weight files :  https://drive.google.com/file/d/10R8BKgnfCAmylta9-iWSi_eiXFIo1JKW/view?usp=sharing
 
-# Description 
+# About 
   Used U-net architecture to segment the satellite images . Dataset used is from Inria (open-source platform) . Since satellite images have high resolution, it cannot be fit into the memory hence divided each images into smallpatches which are than stitched after prediction. Applied mirror padding to preserve smooth connection between patches when stitched together, synthetically generated data to overcome class imbalance. Due to low computation resources used depthwise separable convolution which reduced model size from 31 to 2.8 million parameterswithout impacting the accuracy . Achieved 89% validation accuracy.
 
 ## Install Requirements
