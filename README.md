@@ -1,6 +1,11 @@
 
 # Calculate area and number of buildings using Satellite Image Segmentation  
- ![image](https://user-images.githubusercontent.com/48553042/163168539-1e74324e-c9c0-43d0-a039-715f51e7f119.png)
+ 
+
+
+https://user-images.githubusercontent.com/48553042/173171592-144d0d45-8ac5-46b1-a2ab-87e16f89e15a.mp4
+
+
 ### Annotated dataset       :  https://project.inria.fr/aerialimagelabeling/files/
 ### Pretrained weight files :  https://drive.google.com/file/d/10R8BKgnfCAmylta9-iWSi_eiXFIo1JKW/view?usp=sharing
 
